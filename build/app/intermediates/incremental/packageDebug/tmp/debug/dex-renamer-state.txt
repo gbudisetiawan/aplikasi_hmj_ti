@@ -1,0 +1,4 @@
+#Wed Apr 15 12:38:02 SGT 2020
+base.0=D\:\\TUGAS KULIAH\\SEMESTER IV\\Pemrograman Mobile\\aplikasi_uts\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
