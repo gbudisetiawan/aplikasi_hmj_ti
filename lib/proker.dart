@@ -5,7 +5,7 @@ class Proker extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title:Text("Program Kerja"),
+        title: Text("Program Kerja"),
         centerTitle: true,
         backgroundColor: Colors.cyan[900],
       ),
@@ -13,7 +13,6 @@ class Proker extends StatelessWidget {
     );
   }
 }
-
 
 class _ProkerList extends StatefulWidget {
   @override
@@ -41,7 +40,7 @@ class __ProkerListState extends State<_ProkerList> {
       child: ListView.builder(
         itemCount: languages.length,
         itemBuilder: (BuildContext context, int index) {
-          final number = index+1;
+          final number = index + 1;
           final language = languages[index].toString();
           return Card(
             child: ListTile(
